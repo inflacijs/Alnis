@@ -3,7 +3,6 @@
     z-index: 1;
 }
 .myCarousel {
-    position:relative;
     z-index: -1;
     
 }
@@ -19,7 +18,6 @@ li {
     padding-left: 40px;
 }
 .owl-theme .owl-dots {
-    position:absolute;
     z-index: 1;
     top: 40%;
     bottom: 60%;
