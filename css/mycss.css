@@ -1,0 +1,33 @@
+.container {
+    position:absolute;
+    z-index: 1;
+}
+.myCarousel {
+    position:relative;
+    z-index: -1;
+    
+}
+/* Todo - fix this situation! When code above is active, then owl carousel dots not working,
+but when its hided, then nav bar not showing! */
+.brand {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+li {
+    padding-left: 40px;
+}
+.owl-theme .owl-dots {
+    position:absolute;
+    z-index: 1;
+    top: 40%;
+    bottom: 60%;
+    right: 5px;
+    width: auto;
+    margin: 0;
+    background-color:red;
+    transform: rotate(90deg);
+    
+}  
+
